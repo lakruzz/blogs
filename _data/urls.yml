@@ -1,11 +1,11 @@
-- name: Code-conf
-  description: Continuous delivery conferences by Praqma
+- name: Continuous Delivery Conferences and Meetups by Praqma
+  description: Continuous Delivery Conferences and Meetups by Praqma
   url: http://www.code-conf.com
 
-- name: Praqma's Jenkins
+- name: Praqma's public Jenkins
   description: Automate everything - here!
   url: http://code.praqma.net/ci
 
-- name: Blue prints
+- name: Praqma Blue prints
   description: Listing good ideas for interns
   url: http://blueprints.praqma.net

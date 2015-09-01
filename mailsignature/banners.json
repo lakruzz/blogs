@@ -1,0 +1,22 @@
+{
+  "codecamp": {
+    "target":"http://www.jcicph.dk/codecamp",
+    "graphic":"http://www.jcicph.dk/images/jcicph-codecamp-signature.png"
+  },
+  "jcicph": {
+    "target":"http://www.jcicph.dk/codecamp",
+    "graphic":"http://www.jcicph.dk/images/jcicph-join.png"
+  },
+  "codeuflow": {
+    "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html",
+    "graphic":"http://www.jcicph.dk/images/codeu-git-flow.jpg"
+  },
+  "codeconf": {
+    "target":"http://www.code-conf.com",
+    "graphic":"http://www.code-conf.com/images/code-conf-banner.png"
+  },
+  "codecph": {
+    "target": "http://www.codecph.dk",
+    "graphic": "http://www.codecph.dk/images/codecph+signature.png"
+  }
+}

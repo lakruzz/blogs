@@ -1,0 +1,85 @@
+{
+  "ah": {
+    "name":"Adam Henriques",
+    "mail":"ah@praqma.net",
+    "title":"Sales & Marketing",
+    "cell":"+45 28 12 90 94",
+    "skype":"adamhenriques"
+  },
+  "les": {
+    "name":"Leif Sørensen",
+    "mail":"les@praqma.net",
+    "title":"Partner & Co-founder",
+    "cell":"+45 22 93 69 00",
+    "skype":"leifsore"
+  },
+  "man": {
+    "name":"Mads Nielsen",
+    "mail":"man@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 50 98 18 09",
+    "skype":"inkspot"
+  },
+  "jes": {
+    "name":"Jes Struck",
+    "mail":"jes@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 31 42 09 00",
+    "skype":"jes.struck"
+  },
+  "jak": {
+    "name":"Jan Krag",
+    "mail":"jak@praqma.net",
+    "title":"Continuous Improvement Engineer",
+    "cell":"+45 26 88 23 84"
+  },
+  "mil": {
+    "name":"Mike Long",
+    "mail":"mike@praqma.com",
+    "title":"Coach and Mentor in Embedded Software",
+    "cell":"+47 48 67 63 60"
+  },
+  "and": {
+    "name":"Andrius Ordojan",
+    "mail":"and@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 50 26 48 40"
+  },
+  "bue": {
+    "name":"Bue Petersen",
+    "mail":"bue@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 29 72 64 12"
+  },
+  "tim": {
+    "name":"Tim Harris",
+    "mail":"tim@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 42 74 15 34"
+  },
+  "vol": {
+    "name":"Volker Hilsheimer",
+    "mail":"vol@praqma.net",
+    "title":"Consultant",
+    "cell":"+47 92 02 61 68"
+  },
+  "jas": {
+    "name":"Jan Sørensen",
+    "mail":"jas@praqma.net",
+    "title":"Partner",
+    "cell":"+45 21 34 42 08"
+  },
+  "stl": {
+    "name":"Sten Lusty",
+    "mail":"stl@praqma.net",
+    "title":"Facility and office management",
+    "cell":"+45 27 41 43 11"
+  },
+  "lak": {
+    "name":"Lars Kruse M.Sc.",
+    "mail":"lak@praqma.net",
+    "title":"Partner & Co-founder",
+    "cell":"+45 20 87 25 30",
+    "skype":"lakruzz"
+  }
+}

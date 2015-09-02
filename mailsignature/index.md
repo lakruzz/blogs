@@ -18,7 +18,7 @@ The process is as follows:
 
 <form action="./create.html" method="get">
   <div style="width: 100px;display: block;float: left;">User initials:</div>
-  <select id="user-options" type="text" name="user" style="width:100px;">
+  <select id="user-options" type="text" name="user" style="width:200px;">
     <script type="text/javascript">
        $.getJSON('./persons.json', function(persons) {
          for (var user in persons) {
@@ -29,7 +29,7 @@ The process is as follows:
  </select>
 <br>
   <div style="width: 100px;display: block;float: left;">Banner:</div>
-  <select id="banner-options" type="text" name="banner" style="width:100px;">
+  <select id="banner-options" type="text" name="banner" style="width:200px;">
   <script type="text/javascript">
      $.getJSON('./banners.json', function(designs) {
        for (var design in designs) {

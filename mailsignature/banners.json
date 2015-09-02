@@ -1,4 +1,8 @@
 {
+  "masteringgitosloct15": {
+    "target":"http://www.praqma.com/events/git",
+    "graphic":"http://blogs.praqma.com/mailsignature/banners/masteringgit-banner.osloct15.jpg"
+  },
   "codecamp": {
     "target":"http://www.jcicph.dk/codecamp",
     "graphic":"http://www.jcicph.dk/images/jcicph-codecamp-signature.png"

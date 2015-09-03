@@ -45,5 +45,3 @@ The process is as follows:
 
 ##How to create new entries?
 Hack'em yourself: The valid entries for users are defined in the `JSON` file named [persons.json](https://github.com/Praqma/praqma.github.io/blob/master/mailsignature/persons.json) and the valid entries for banners are defined in the `JSON` file named [banners.json](https://github.com/Praqma/praqma.github.io/blob/master/mailsignature/banners.json). A note on JSON - It's not very forgivin': If you screw up the syntax in any of the two files, the signature creator stops working.
-
-

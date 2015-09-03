@@ -1,26 +1,18 @@
 {
+  "codecph15": {
+    "target":"www.code-conf.com/cph15?src=mailbanner",
+    "graphic":"http://blogs.praqma.com/mailsignature/banners/Mailbanner_CoDeU2015CPH_600x100.jpg"
+  },
   "masteringgitosloct15": {
-    "target":"http://www.praqma.com/events/git",
+    "target":"http://www.praqma.com/events/git?src=mailbanner",
     "graphic":"http://blogs.praqma.com/mailsignature/banners/masteringgit-banner.osloct15.jpg"
   },
-  "codecamp": {
-    "target":"http://www.jcicph.dk/codecamp",
-    "graphic":"http://www.jcicph.dk/images/jcicph-codecamp-signature.png"
-  },
-  "jcicph": {
-    "target":"http://www.jcicph.dk/codecamp",
-    "graphic":"http://www.jcicph.dk/images/jcicph-join.png"
-  },
   "codeuflow": {
-    "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html",
-    "graphic":"http://www.jcicph.dk/images/codeu-git-flow.jpg"
+    "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html?src=mailbanner",
+    "graphic":"http://blogs.praqma.com/mailsignature/banners/codeu-git-flow.jpg"
   },
-  "codeconf": {
-    "target":"http://www.code-conf.com",
-    "graphic":"http://www.code-conf.com/images/code-conf-banner.png"
-  },
-  "codecph": {
-    "target": "http://www.codecph.dk",
-    "graphic": "http://www.codecph.dk/images/codecph+signature.png"
+  "codeconf15": {
+    "target":"http://www.code-conf.com?src=mailbanner",
+    "graphic":"http://blogs.praqma.com/mailsignature/banners/code-conf-banner.png"
   }
 }

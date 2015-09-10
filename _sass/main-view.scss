@@ -1,12 +1,32 @@
 @charset "utf-8";
 $main-view-width: 70%;
 $main-view-position: left;
+
+@mixin add-small-view($small-image)
+{display:inline-block;
+text-decoration: none;
+
+position: relative;
+font-weight:bolder;
+font-size: 11px;
+display: block;
+float: left;
+width: 200px;
+height: 150px;
+margin-left: 0px;
+margin-left: 20px;
+background-repeat: no-repeat;
+background-image: url($small-image);
+background-size: contain;
+}
+
+
 .main-view
 {
   width: $main-view-width;
   height: 100%;
   float: $main-view-position;
-  background-color: green;
+  background-color: #34282C;
 
 #large-view
 {
@@ -24,27 +44,16 @@ max-height:100%;
 
 }
 
-#small-view
+.small-view
 {
 position: relative;
 width: 100%;
 max-height: 30%;
+vertical-align: bottom;
 
-a{
-  display: block;
-  text-decoration: none;
-
-img
-{
-  display: inline;
-  position: absolute;
-  width: 150px;
-height: 20%;
-}
-
-  }
-
-
+.news{  @include add-small-view("/images/news-pic.png");  }
+.features{  @include add-small-view("/images/features-pic.png");  }
+.conference{  @include add-small-view("/images/conf-pic.png");  }
 }
 
 }

@@ -7,6 +7,7 @@
 @import "side-bar";
 
 $canvas-color: grey;
+$main-frame-color: blue;
 $main-frame-max-width: 960px;
 $margin: auto;
 
@@ -19,6 +20,7 @@ body
 
 }
 .main-frame{
+  background-color: $main-frame-color;
   margin-right: $margin;
   margin-left: $margin;
   max-width: $main-frame-max-width;
@@ -28,7 +30,7 @@ body
   position: relative;
   margin-left: auto;
 margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 5px;
 width: auto;
   height: auto;
 text-align: center;

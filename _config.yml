@@ -1,0 +1,6 @@
+# Site settings
+title: Praqma-Continuous Delivery Company
+exclude: [README.md]
+timezone: Europe/Copenhagen
+url:
+markdown: kramdown

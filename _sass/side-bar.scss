@@ -1,0 +1,41 @@
+@charset "utf-8";
+$side-bar-width: 30%;
+$side-bar-position: right;
+$side-bar-font: fantasy;
+$side-bar-color: #2C3539;
+$side-bar-text-color: orange;
+$icon-size: 50px;
+$content-position: 15px;
+
+.side-bar
+{
+
+  position: relative;
+  clear:$side-bar-position;
+    width: $side-bar-width;
+    float: $side-bar-position;
+background-color: $side-bar-color;
+font-family:  $side-bar-font;
+
+ul{
+    list-style: none;
+margin-left: $content-position;
+padding-left: $content-position;
+margin-top: $content-position+10;
+    li{
+line-height: 30px;
+letter-spacing: 2px;
+
+    img{
+    width: $icon-size;
+    height: $icon-size;
+      }
+
+  a{
+    color: $side-bar-text-color;
+    text-decoration: none;
+    }
+
+    }
+  }
+}

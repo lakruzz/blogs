@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "banner";
+@import "main-view";
+@import "side-bar";
+
+$canvas-color: grey;
+$main-frame-max-width: 960px;
+$margin: auto;
+
+body
+{
+  background-color: $canvas-color;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+.main-frame{
+  margin-right: $margin;
+  margin-left: $margin;
+  max-width: $main-frame-max-width;
+}
+.head-wrapper
+{
+  position: relative;
+  margin-left: auto;
+margin-top: 0px;
+  padding-top: 0px;
+width: auto;
+  height: auto;
+text-align: center;
+}
+
+.inner-wrapper
+{
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}
+.foot-wrapper
+{
+  clear:both;
+  position: relative;
+  background-color: #98AFC7;
+  text-align: center;
+
+}
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}

@@ -1,0 +1,79 @@
+
+@charset "utf-8";
+
+/*banner*/
+$banner-font-stack: 'Brush Script MT', cursive;
+$logo-width: 100px;
+$logo-height: 100px;
+$logo-border: 1px solid ;
+$banner-color: white;
+/*menu*/
+$menu-font-stack: Arial;
+$menu-font-size: 17px;
+$menu-font-color: #454545;
+$color-visted: #454545;
+$border-radius: 3px;
+$hover-color: orange;
+
+/*moto*/
+$moto-font-stack: Lucida;
+$moto-font-size: 25px;
+$moto-ribbon-height: 25px;
+$moto-ribbon-color: black;
+$moto-font-color: white;
+$moto-text-padding: 10px;
+
+.head-wrapper
+{
+  background-color: $banner-color;
+  font-family: $banner-font-stack;
+
+img
+{
+width: $logo-width;
+height: $logo-height;
+border: $logo-border;
+}
+
+.menu
+{
+margin-top: 20px;
+margin-bottom: 9px;
+  font-family: $menu-font-stack;
+  font-weight: normal;
+  font-size: $menu-font-size;
+font-weight: bold;
+color: red;
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: $color-visted;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: $hover-color;
+    border-top-right-radius: $border-radius;
+    border-top-left-radius: $border-radius;
+}
+
+a:active {
+    text-decoration: underline;
+}
+}
+
+#moto
+{
+  padding-top: $moto-text-padding;
+  padding-bottom: $moto-text-padding - 2;
+  height: $moto-ribbon-height;
+  background-color: $moto-ribbon-color;
+  color: $moto-font-color;
+  text-align: right;
+  font-family: $moto-font-stack;
+font-size: $moto-font-size;
+}
+  }

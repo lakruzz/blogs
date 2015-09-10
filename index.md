@@ -11,17 +11,17 @@ title: Praqma-CoDe Company.
 <div class="small-view">
 
 <a class="news" href="#">
-<b>-NEWS-
+<b>NEWS</b><br/>
 news goes here ...
 </a>
 
 <a class="features" href="#">
-<b>-NEWS-
+<b>NEWS</b><br/>
 news goes here ...
 </a>
 
 <a class="conference" href="#">
-<b>-NEWS-
+<b>NEWS</b><br/>
 news goes here ...
 </a>
 

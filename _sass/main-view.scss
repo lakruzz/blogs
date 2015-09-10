@@ -1,22 +1,28 @@
 @charset "utf-8";
 $main-view-width: 70%;
 $main-view-position: left;
+$text-position: 100px;
+$color-visted: orange;
+$hover-color: black;
+$default-color: grey;
 
 @mixin add-small-view($small-image)
-{display:inline-block;
-text-decoration: none;
-
-position: relative;
-font-weight:bolder;
-font-size: 11px;
+{
+background-image: url($small-image);
 display: block;
+position: relative;
+text-align: justify;
+text-decoration: none;
+font-weight:lighter;
+font-size: 15px;
+padding-top: $text-position;
+color: $default-color;
 float: left;
 width: 200px;
 height: 150px;
 margin-left: 0px;
 margin-left: 20px;
 background-repeat: no-repeat;
-background-image: url($small-image);
 background-size: contain;
 }
 
@@ -50,6 +56,17 @@ position: relative;
 width: 100%;
 max-height: 30%;
 vertical-align: bottom;
+
+a:visited {
+    text-decoration: none;
+    color: $color-visted;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $hover-color;
+  }
+
 
 .news{  @include add-small-view("/images/news-pic.png");  }
 .features{  @include add-small-view("/images/features-pic.png");  }

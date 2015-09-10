@@ -1,8 +1,0 @@
-name: Praqma's Blog
-highlighter: pygments
-exclude: [README.md]
-timezone: Europe/Copenhagen
-markdown: kramdown
-permalink:  none
-
-exclude: ["vendor"]

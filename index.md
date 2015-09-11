@@ -8,22 +8,48 @@ title: Praqma-CoDe Company.
   <img src="/images/front.png" />
 </div>
 
+<!--Small Pictures Panel Starts-->
 <div class="small-view">
 
-<a class="news" href="#">
+<a class="drop" style="background-image: url(/images/news-pic.png);" href="#">
 <b>NEWS</b><br/>
-news goes here ...
+news goes here ...news goes here ...
+news goes here ...news goes here ...
 </a>
 
-<a class="features" href="#">
-<b>NEWS</b><br/>
-news goes here ...
+<a class="drop" style="background-image: url(/images/features-pic.png);" href="#">
+<b>Features</b><br/>
+Features goes here ...Features goes here ...
+Features goes here ...
+
 </a>
 
-<a class="conference" href="#">
-<b>NEWS</b><br/>
-news goes here ...
+<a class="drop" style="background-image: url(/images/conf-pic.png);" href="#">
+<b>Conference</b><br/>
+Conference goes here ...Conference goes here ...
+Conference goes here ...Conference goes here ...
+</a>
+
+<a class="drop" style="background-image: url(/images/conf-pic.png);" href="#">
+<b>Conference</b><br/>
+Conference goes here ...
+</a>
+
+<a class="drop" style="background-image: url(/images/conf-pic.png);" href="#">
+<b>Conference</b><br/>
+Conference goes here ...
+</a>
+
+<a class="drop" style="background-image: url(/images/conf-pic.png);" href="#">
+<b>Conference</b><br/>
+Conference goes here ...
+</a>
+
+<a class="drop" style="background-image: url(/images/conf-pic.png);" href="#">
+<b>Conference</b><br/>
+Conference goes here ...
 </a>
 
   </div>
+<!--Small Pictures Panel Ends-->
 </div>

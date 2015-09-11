@@ -19,13 +19,13 @@ $comments-font:arial;
 background-color: $side-bar-color;
 font-family:  $side-bar-font;
 
-ul{
-    list-style: none;
+.menu-item
+{
+display: block;
+vertical-align: middle;
 margin-left: $content-position;
 padding-left: $content-position;
 margin-top: $content-position+5;
-    li{
-line-height: 30px;
 letter-spacing: 2px;
 
     img{
@@ -34,13 +34,27 @@ letter-spacing: 2px;
       }
 
   a{
-    margin-left: 10px;
+    margin-left: 20px;
     color: $side-bar-text-color;
     text-decoration: none;
+  }
 }
 
-    }
+  .sub-item
+  {
+    a{
+      display: block;
+      vertical-align: middle;
+      margin-left: $content-position;
+      padding-left: $content-position;
+      margin-top: $content-position+5;
+    img{
+    width: $icon-size;
+    height: $icon-size;
+      }
+}
   }
+
 
   span
   {

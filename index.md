@@ -4,9 +4,16 @@ title: Praqma-CoDe Company.
 ---
 <div class="main-view">
 
-<div id="large-view">
-  <img src="/images/front.png" />
-</div>
+  <p id="tag-1">Ribbon</p>
+  <p id="tag-2">---Ribbon---</p>
+<p id="tag-3">--Ribbon--</p>
+
+  <img id="large-view" src="/images/front.png" />
+<!--div id="large-view">
+  <img src="/images/front.jpg" />
+<p>Ribbon</p>
+  </div-->
+
 
 <!--Small Pictures Panel Starts-->
 <div class="small-view">

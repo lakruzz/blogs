@@ -2,7 +2,7 @@
 $main-view-width: 70%;
 $main-view-position: left;
 
-/*tagl-ines*/
+/*tag-lines*/
 $tag-line-margin: 30px;
 
 $tag-line-1-size: 20px;
@@ -15,6 +15,8 @@ $tagline-2-color: black;
 $tagline-2-font-color: white;
 $tag-line-2-font: Courier New;
 
+$click-tag-font-color: orange;
+$click-tag-background-color: white;
 /*for small pic*/
 $text-position: 100px;
 $color-visted: orange;
@@ -26,7 +28,7 @@ $default-color: grey;
   width: $main-view-width;
   height: 100%;
   float: $main-view-position;
-  background-color: #34282C;
+  background-color: white;
 position: relative;
 
 p{
@@ -35,6 +37,18 @@ p{
 vertical-align: middle;
 }
 
+#click-tag
+{
+position: relative;
+  clear: right;
+  float: right;
+  vertical-align: bottom;
+  text-decoration: none;
+  background-color: $click-tag-background-color;
+  color: $click-tag-font-color;
+
+    }
+
 #tag-1{
     z-index: 1;
 margin-top: $tag-line-margin;
@@ -42,7 +56,7 @@ background-color:$tagline-1-color;
 color: $tagline-1-font-color;
 font-size: $tag-line-1-size;
 font-family: $tag-line-1-font;
-line-height: $tag-line-1-size + 5px;
+line-height: $tag-line-1-size ;
 }
 
 #tag-2{
@@ -70,7 +84,7 @@ line-height: $tag-line-1-size + 5px;
   position: relative;
   width: 100%;
   height: 70%;
-  margin-top: 10px;
+  margin-top: 0px;
 
 }
 

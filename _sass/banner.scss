@@ -10,9 +10,9 @@ $banner-color: white;
 $menu-font-stack: Arial;
 $menu-font-size: 17px;
 $menu-font-color: #454545;
+$hover-color: orange;
 $color-visted: #454545;
 $border-radius: 3px;
-$hover-color: orange;
 
 /*moto*/
 $moto-font-stack: Lucida;
@@ -38,10 +38,11 @@ height: $logo-height;
 margin-top: 20px;
 margin-bottom: 9px;
   font-family: $menu-font-stack;
-  font-weight: normal;
   font-size: $menu-font-size;
 font-weight: bold;
-color: red;
+a{
+  color: $menu-font-color;
+}
 a:link {
     text-decoration: none;
 }

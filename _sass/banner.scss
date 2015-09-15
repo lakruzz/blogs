@@ -1,6 +1,7 @@
 
 @charset "utf-8";
 
+
 /*banner*/
 $banner-font-stack: 'Brush Script MT', cursive;
 $logo-width: 100px;
@@ -16,8 +17,7 @@ $border-radius: 3px;
 
 /*moto*/
 $moto-font-stack: Lucida;
-$moto-font-size: 25px;
-$moto-ribbon-height: 25px;
+$moto-font-size: 15px;
 $moto-ribbon-color: black;
 $moto-font-color: white;
 $moto-text-padding: 10px;
@@ -33,46 +33,20 @@ width: $logo-width;
 height: $logo-height;
 }
 
-.menu
-{
-margin-top: 20px;
-margin-bottom: 9px;
-  font-family: $menu-font-stack;
-  font-size: $menu-font-size;
-font-weight: bold;
-a{
-  color: $menu-font-color;
-}
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-    color: $color-visted;
-}
-
-a:hover {
-    text-decoration: underline;
-    background-color: $hover-color;
-    border-top-right-radius: $border-radius;
-    border-top-left-radius: $border-radius;
-}
-
-a:active {
-    text-decoration: underline;
-}
-}
-
 #moto
 {
+  position: relative;
   padding-top: $moto-text-padding;
   padding-bottom: $moto-text-padding - 2;
-  height: $moto-ribbon-height;
   background-color: $moto-ribbon-color;
   color: $moto-font-color;
   text-align: right;
   font-family: $moto-font-stack;
 font-size: $moto-font-size;
 }
+  }
+
+
+  .navbar{
+    margin-bottom: 0px;
   }

@@ -18,7 +18,6 @@ $comments-font:arial;
     float: $side-bar-position;
 background-color: $side-bar-color;
 font-family:  $side-bar-font;
-
 .menu-item
 {
 display: block;
@@ -56,11 +55,12 @@ letter-spacing: 2px;
   }
 
 
-  span
+  ul
   {
-font-family: $comments-font;
-  margin-left: $content-position+20;
-    text-align: center;
+  font-family: $comments-font;
+    list-style:none;
+  text-align: center;
+  border: none;
+  }
 
-}
 }

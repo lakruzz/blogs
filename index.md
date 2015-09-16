@@ -19,7 +19,7 @@ title: Praqma-CoDe Company.
 
 
 <!--Small Pictures' Panel Starts-->
-<div class="small-view">
+<!--div class="small-view">
 
 <a class="drop" style="background-image: url(/images/news-pic.png);" href="#">
 <b>NEWS</b><br/>
@@ -37,6 +37,50 @@ Features goes here ...Features goes here ...
 Conference goes here ...Conference goes here ...
 </a>
 
-  </div>
+  </div-->
 <!--Small Pictures Panel Ends-->
+<div class="small-view row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="/images/news-pic.png" alt="">
+      <div class="caption">
+        <h5>NEWS</h5>
+        <p><a href="#">News goes here..</a></p>
+              </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="/images/features-pic.png" alt="">
+      <div class="caption">
+        <h5>FEATURES</h5>
+        <p><a href="#">Features goes here..</a></p>
+              </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="/images/conf-pic.png" alt="">
+      <div class="caption">
+        <h5>CONFERENCE</h5>
+        <p><a href="#">Conference goes here..</a></p>
+              </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="/images/conf-pic.png" alt="">
+      <div class="caption">
+        <h5>CONFERENCE</h5>
+        <p><a href="#">Conference goes here..</a></p>
+              </div>
+    </div>
+  </div>
+
+
+</div>
+
 </div>

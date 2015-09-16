@@ -16,7 +16,7 @@ $color-visted: #454545;
 $border-radius: 3px;
 
 /*moto*/
-$moto-font-stack: Lucida;
+$moto-font-stack: Verdana;
 $moto-font-size: 15px;
 $moto-ribbon-color: black;
 $moto-font-color: white;
@@ -25,15 +25,16 @@ $moto-text-padding: 10px;
 .head-wrapper
 {
   background-color: $banner-color;
+.logo{
   font-family: $banner-font-stack;
-
 img
 {
 width: $logo-width;
 height: $logo-height;
 }
+}
 
-#moto
+#motto
 {
   position: relative;
   padding-top: $moto-text-padding;
@@ -45,8 +46,17 @@ height: $logo-height;
 font-size: $moto-font-size;
 }
   }
-
+#menu-bar
+{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
 
   .navbar{
     margin-bottom: 0px;
-  }
+    }
+    .navbar-default{
+      background-color: transparent;
+      border-color: transparent;
+          }

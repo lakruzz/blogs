@@ -60,3 +60,12 @@ font-size: $moto-font-size;
       background-color: transparent;
       border-color: transparent;
           }
+
+          .navbar .navbar-nav {
+              display: inline-block;
+              float: none;
+          }
+
+          .navbar .navbar-collapse {
+              text-align: center;
+          }

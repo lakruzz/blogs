@@ -2,10 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "bootstrap";
-@import "banner";
-@import "main-view";
-@import "side-bar";
+@import "praqma/banner";
+@import "praqma/main-view";
+@import "praqma/side-bar";
 
 $canvas-color: grey;
 $main-frame-color: white;
@@ -45,28 +44,32 @@ text-align: center;
 {
   clear: both;
   position: relative;
-  #width: 100%;
-  #height: 100%;
-  #background-color: brown;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: brown;
 }
 
 .foot-wrapper
 {
-  border-top-right-radius: 30px;
+
   clear:both;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
 padding-top: 10px;
-padding-bottom: 60px;
+padding-bottom: 90px;
   background-color: $footer-color;
   color:$footer-color - 80;
 
   .footer-content
   {
-    position:inherit;
-  display:inline-block;
+    padding-right:0px;
+    padding-left: 10px;
+    position:relative;
+  display:block;
   width: 20%;
   text-align: left;
 font-size: $footer-font-size;

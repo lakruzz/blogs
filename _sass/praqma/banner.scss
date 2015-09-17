@@ -3,7 +3,7 @@
 
 
 /*banner*/
-$banner-font-stack: 'Brush Script MT', cursive;
+$banner-font-stack: 'Indie Flower';
 $logo-width: 100px;
 $logo-height: 100px;
 $banner-color: white;
@@ -16,12 +16,12 @@ $color-visted: #454545;
 $border-radius: 3px;
 
 /*moto*/
-$moto-font-stack: Verdana;
+$moto-font-stack: 'Ubuntu';
 $moto-font-size: 15px;
 $moto-ribbon-color: black;
 $moto-font-color: white;
 $moto-text-padding: 10px;
-
+$letter-spacing:2px;
 .head-wrapper
 {
   background-color: $banner-color;
@@ -44,6 +44,7 @@ height: $logo-height;
   text-align: right;
   font-family: $moto-font-stack;
 font-size: $moto-font-size;
+letter-spacing: $letter-spacing;
 }
   }
 #menu-bar

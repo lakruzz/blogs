@@ -18,10 +18,10 @@ $tag-line-2-font: Courier New;
 $click-tag-font-color: orange;
 $click-tag-background-color: white;
 /*for small pic*/
-$text-position: 100px;
 $color-visted: orange;
 $hover-color: black;
-$default-color: grey;
+$default-color: white;
+$small-view-font-size:11px;
 
 .main-view
 {
@@ -30,12 +30,6 @@ $default-color: grey;
   float: $main-view-position;
   background-color: white;
 position: relative;
-
-p{
-  position: absolute;
-  float: left;
-vertical-align: middle;
-}
 
 #click-tag
 {
@@ -97,18 +91,25 @@ line-height: $tag-line-1-size ;
     padding: 0px;
     border: none;
 float: left;
-    h5{
-    font-weight: bold;
-        }
-        a:visited {
-            text-decoration: none;
-            color: $color-visted;
-        }
 
-        a:hover {
-            text-decoration: none;
-            color: $hover-color;
-          }
+.caption
+{
+position: relative;
+display: block;
+  padding: 2px;
+  font-size: $small-view-font-size;
+  a:visited {
+      text-decoration: none;
+      color: $color-visted;
+font-weight: bolder;
+  }
+
+  a:hover {
+      text-decoration: none;
+      color: $hover-color;
+font-weight: bolder;
+      }
+  }
   }
 }
 }

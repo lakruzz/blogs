@@ -85,12 +85,18 @@ line-height: $tag-line-1-size ;
 .small-view
 {
 
-  .thumbnail{
+  .thumbnail
+  {
     display:inline-block;
     margin-top: 10px;
     padding: 0px;
     border: none;
 float: left;
+img
+{
+  width: 100%;
+  max-width: 100%;
+}
 
 .caption
 {

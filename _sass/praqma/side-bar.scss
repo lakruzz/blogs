@@ -12,48 +12,39 @@ $comments-font:arial;
 .side-bar
 {
 
-  position: relative;
   clear:$side-bar-position;
     width: $side-bar-width;
     float: $side-bar-position;
 background-color: $side-bar-color;
 font-family:  $side-bar-font;
-.menu-item
-{
-display: block;
-vertical-align: middle;
-margin-left: $content-position;
-padding-left: $content-position;
-margin-top: $content-position+5;
-letter-spacing: 2px;
+padding: 5px;
 
-    img{
-    width: $icon-size;
-    height: $icon-size;
-      }
+.social-icons-tray{
+display:inline-block;
+margin-left: 0px;
+margin-right: auto;
+margin-bottom: 10px;
+border-bottom: 1px solid;
+border-color: gery;
+width: 100%;
+max-width: 100%;
 
-  a{
-    margin-left: 20px;
-    color: $side-bar-text-color;
-    text-decoration: none;
+a{
+  text-align: center;
+  text-decoration: none;
+padding-bottom: 10px;
+  img{
+
+    width: 30px;
+    max-width: 30px;
+    height: 30px;
+    max-height: 30px;
   }
 }
-
-  .sub-item
-  {
-    a{
-      display: block;
-      vertical-align: middle;
-      margin-left: $content-position;
-      padding-left: $content-position;
-      margin-top: $content-position+5;
-    img{
-    width: $icon-size;
-    height: $icon-size;
-      }
 }
-  }
+.flexslider{
 
+}
 
   ul
   {

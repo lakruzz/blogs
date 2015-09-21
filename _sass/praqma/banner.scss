@@ -1,14 +1,13 @@
 
 @charset "utf-8";
-
-
 /*banner*/
-$banner-font-stack: 'Indie Flower';
+$banner-font-stack: 'jinky', 'Indie Flower';
 $logo-width: 100px;
 $logo-height: 100px;
 $banner-color: white;
+$logo-font-size: 25px;
 /*menu*/
-$menu-font-stack: Arial;
+$menu-font-stack:  Arial;
 $menu-font-size: 17px;
 $menu-font-color: #454545;
 $hover-color: orange;
@@ -27,6 +26,7 @@ $letter-spacing:2px;
   background-color: $banner-color;
 .logo{
   font-family: $banner-font-stack;
+  font-size: $logo-font-size;
 img
 {
 width: $logo-width;

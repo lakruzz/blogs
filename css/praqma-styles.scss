@@ -1,89 +1,104 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @import "praqma/banner";
 @import "praqma/main-view";
 @import "praqma/side-bar";
-
-$canvas-color: grey;
+$canvas-color: white;
 $main-frame-color: white;
 $main-frame-max-width: 960px;
 $margin: auto;
-
-$footer-color: #E5E4E2;
+$footer-color: #e5e4e2;
 $footer-font-size: 10px;
-
-body
-{
+body {
   background-color: $canvas-color;
   height: 100%;
   padding: 0;
   margin: 0;
-
 }
-.main-frame
-{
+.main-frame {
   background-color: $main-frame-color;
   margin-right: $margin;
   margin-left: $margin;
   max-width: $main-frame-max-width;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
-.head-wrapper
-{
+.head-wrapper {
   position: relative;
   margin-left: auto;
-margin-top: 0px;
+  margin-top: 0;
   padding-top: 5px;
-width: auto;
+  width: auto;
   height: auto;
-text-align: center;
+  text-align: center;
 }
-
-.inner-wrapper
-{
+.inner-wrapper {
   clear: both;
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
-
-.foot-wrapper
-{
-
-  clear:both;
+.foot-wrapper {
+  clear: both;
   position: relative;
   display: block;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
   width: auto;
-padding-top: 10px;
-padding-bottom: 90px;
+  padding-top: 10px;
+  padding-bottom: 90px;
   background-color: $footer-color;
-  color:$footer-color - 80;
-
-  .footer-content
-  {
-    padding-right:0px;
+  color: $footer-color - 80;
+  line-height: 1;
+  .social-icons-tray {
+    display: block;
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 3px;
     padding-left: 10px;
-    position:relative;
-  display:block;
-  width: 20%;
-  text-align: left;
-font-size: $footer-font-size;
-float: left;
-
+    padding-right: 10px;
+    width: 100%;
+    max-width: 100%;
+    a {
+      text-align: center;
+      text-decoration: none;
+      padding-bottom: 0;
+      img {
+        float: right;
+        width: 30px;
+        max-width: 30px;
+        height: 30px;
+        max-height: 30px;
+        opacity: 0.45;
+      }
+      img:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+    p {
+      display: block;
+      float: left;
+      line-height: 3;
+      font-weight: bold;
+    }
   }
-  hr{
-    margin-top: 0px;
+  .footer-content {
+    padding-right: 0;
+    padding-left: 10px;
+    position: relative;
+    display: block;
+    width: 20%;
+    text-align: left;
+    font-size: $footer-font-size;
+    float: left;
   }
 }
 
 /* #Media Queries
 ================================================== */
-
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
 
@@ -91,15 +106,18 @@ float: left;
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
- .side-bar{
-   width:400px;
- }
-
- .main-view{
-   width:100%;}
-
+@media only screen and (max-width: 767px) {.side-bar {
+    width: 100%;
+  }
+  .main-view {
+    width: 100%;
+  }
+  .foot-wrapper {.footer-content {
+      font-size: 7px;
+    }
+  }
 }

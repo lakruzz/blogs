@@ -14,38 +14,19 @@ $comments-font: arial;
   background-color: $side-bar-color;
   font-family: $side-bar-font;
   padding: 5px;
-  .social-icons-tray {
-    display: inline-block;
-    margin-left: 0;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border-bottom: 1px solid;
-    border-color: gery;
+  .flexslider {
+    display: block;
     width: 100%;
     max-width: 100%;
-    a {
+    float: none;
+    ul {
+      font-family: $comments-font;
+      list-style: none;
       text-align: center;
-      text-decoration: none;
-      padding-bottom: 10px;
-      img {
-        width: 30px;
-        max-width: 30px;
-        height: 30px;
-        max-height: 30px;
-      }
+      border: none;
     }
   }
-  .flexslider {
-
-  }
-  ul {
-    font-family: $comments-font;
-    list-style: none;
-    text-align: center;
-    border: none;
-  }
 }
-
 /* #Media Queries
 ================================================== */
 /* Smaller than standard 960 (devices and browsers) */
@@ -59,12 +40,11 @@ $comments-font: arial;
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  .side-bar {
+@media only screen and (max-width: 767px) {.side-bar {
     clear: $side-bar-position;
-    width: 205px;
-    float: none;
-    display:block;
+    width: 200px;
+    display: block;
+    position: relative;
     background-color: $side-bar-color;
     font-family: $side-bar-font;
     padding: 5px;

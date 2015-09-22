@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+ # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @import "praqma/fonts";
 @import "praqma/banner";
@@ -16,7 +16,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  }
+}
 .main-frame {
   background-color: $main-frame-color;
   margin-right: $margin;
@@ -46,9 +46,10 @@ body {
   display: block;
   margin-left: 0;
   margin-right: 0;
-  width: auto;
-  padding-top: 10px;
-  padding-bottom: 90px;
+  width: 100%;
+  padding-top: 5px;
+
+  // padding-bottom: 5px;
   background-color: $footer-color;
   color: $footer-color - 80;
   line-height: 1;
@@ -57,7 +58,6 @@ body {
     position: relative;
     margin-left: 0;
     margin-right: auto;
-    margin-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
@@ -84,17 +84,22 @@ body {
       float: left;
       line-height: 3;
       font-weight: bold;
+      margin-bottom: 0;
     }
   }
   .footer-content {
     padding-right: 0;
     padding-left: 10px;
+    padding-bottom: 5px;
     position: relative;
     display: block;
     width: 20%;
     text-align: left;
     font-size: $footer-font-size;
     float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
 
@@ -117,8 +122,15 @@ body {
   .main-view {
     width: 100%;
   }
-  .foot-wrapper {.footer-content {
-      font-size: 7px;
+  .foot-wrapper {
+
+    // padding-bottom: 30px;
+    .footer-content {
+      visibility: hidden;
+      font-size: 9px;
+      .address {
+        visibility: visible;
+      }
     }
   }
 }

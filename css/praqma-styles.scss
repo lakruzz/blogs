@@ -116,15 +116,16 @@ body {
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {.side-bar {
+@media only screen and (max-width: 767px) {
+  .side-bar {
     width: 100%;
   }
+
   .main-view {
     width: 100%;
   }
-  .foot-wrapper {
 
-    // padding-bottom: 30px;
+  .foot-wrapper {
     .footer-content {
       visibility: hidden;
       font-size: 9px;

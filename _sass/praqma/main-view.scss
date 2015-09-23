@@ -96,3 +96,20 @@ $small-view-font-size: 11px;
     }
   }
 }
+
+
+@media only screen and (max-width: 767px) {.main-view {
+.large-pic{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+  .small-view {.thumbnail {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+  .caption {
+          font-size: $small-view-font-size + 5;
+        }
+      }
+    }
+  }
+}

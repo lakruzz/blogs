@@ -8,12 +8,12 @@ $icon-size: 50px;
 $content-position: 15px;
 $comments-font:  arial;
 .side-bar {
-  clear: $side-bar-position;
-  width: $side-bar-width;
-  float: $side-bar-position;
-  background-color: $side-bar-color;
-  font-family: $side-bar-font;
-  padding: 5px;
+  // clear: $side-bar-position;
+  // width: $side-bar-width;
+  // float: $side-bar-position;
+  // background-color: $side-bar-color;
+  // font-family: $side-bar-font;
+  // padding: 5px;
   .flexslider {
     display: block;
     width: 100%;
@@ -40,18 +40,19 @@ $comments-font:  arial;
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {.side-bar {
-    clear: $side-bar-position;
-    width: 200px;
-    display: block;
-    position: relative;
-    background-color: $side-bar-color;
-    font-family: $side-bar-font;
-    padding: 5px;
-
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
+@media only screen and (max-width: 767px) {
+  // .side-bar {
+  //   clear: $side-bar-position;
+  //   width: 200px;
+  //   display: block;
+  //   position: relative;
+  //   background-color: $side-bar-color;
+  //   font-family: $side-bar-font;
+  //   padding: 5px;
+  //
+  //     border: 1px solid #ddd;
+  //     border-radius: 4px;
+  //     margin-top: 10px;
+  //     margin-bottom: 10px;
+  // }
 }

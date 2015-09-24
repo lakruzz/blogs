@@ -1,115 +1,115 @@
-@charset "utf-8";
-$main-view-width: 70%;
-$main-view-position: left;
-
-/*tag-lines*/
-$tag-line-margin: 30px;
-$tag-line-1-size: 20px;
-$tagline-1-color: orange;
-$tagline-1-font-color: white;
-$tag-line-1-font: Geneva;
-$tag-line-2-size: 30px;
-$tagline-2-color: black;
-$tagline-2-font-color: white;
-$tag-line-2-font: Courier New;
-$click-tag-font-color: orange;
-$click-tag-background-color: white;
-/*for small pic*/
-$color-visted: orange;
-$hover-color: black;
-$default-color: white;
-$small-view-font-size: 11px;
-.main-view {
-  width: $main-view-width;
-  height: 100%;
-  float: $main-view-position;
-  background-color: white;
-  position: relative;
-  #click-tag {
-    position: relative;
-    clear: right;
-    float: right;
-    vertical-align: bottom;
-    text-decoration: none;
-    background-color: $click-tag-background-color;
-    color: $click-tag-font-color;
-  }
-  #tag-1 {
-    z-index: 1;
-    margin-top: $tag-line-margin;
-    background-color: $tagline-1-color;
-    color: $tagline-1-font-color;
-    font-size: $tag-line-1-size;
-    font-family: $tag-line-1-font;
-    line-height: $tag-line-1-size;
-  }
-  #tag-2 {
-    z-index: 2;
-    margin-top: $tag-line-margin + $tag-line-1-size;
-    background-color: $tagline-2-color;
-    color: $tagline-2-font-color;
-    font-size: $tag-line-2-size;
-    font-family: $tag-line-2-font;
-  }
-  #tag-3 {
-    z-index: 3;
-    margin-top: $tag-line-margin + $tag-line-1-size + $tag-line-2-size;
-    background-color: $tagline-2-color;
-    color: $tagline-2-font-color;
-    font-size: $tag-line-2-size;
-    font-family: $tag-line-2-font;
-  }
-  #large-view {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 70%;
-    margin-top: 0;
-  }
-  .small-view {.thumbnail {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 0;
-      border: none;
-      float: left;
-      margin-bottom: 0;
-      img {
-        width: 100%;
-        max-width: 100%;
-      }
-      .caption {
-        position: relative;
-        display: block;
-        padding: 2px;
-        font-size: $small-view-font-size;
-        a:visited {
-          text-decoration: none;
-          color: $color-visted;
-          font-weight: bolder;
-        }
-        a:hover {
-          text-decoration: none;
-          color: $hover-color;
-          font-weight: bolder;
-        }
-      }
-    }
-  }
-}
-
-
-@media only screen and (max-width: 767px) {.main-view {
-.large-pic{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-  .small-view {.thumbnail {
-      border: 1px solid #ddd;
-      border-radius: 4px;
-  .caption {
-          font-size: $small-view-font-size + 5;
-        }
-      }
-    }
-  }
-}
+// @charset "utf-8";
+// $main-view-width: 70%;
+// $main-view-position: left;
+//
+// /*tag-lines*/
+// $tag-line-margin: 30px;
+// $tag-line-1-size: 20px;
+// $tagline-1-color: orange;
+// $tagline-1-font-color: white;
+// $tag-line-1-font: Geneva;
+// $tag-line-2-size: 30px;
+// $tagline-2-color: black;
+// $tagline-2-font-color: white;
+// $tag-line-2-font: Courier New;
+// $click-tag-font-color: orange;
+// $click-tag-background-color: white;
+// /*for small pic*/
+// $color-visted: orange;
+// $hover-color: black;
+// $default-color: white;
+// $small-view-font-size: 11px;
+// .main-view {
+//   width: $main-view-width;
+//   height: 100%;
+//   float: $main-view-position;
+//   background-color: white;
+//   position: relative;
+//   #click-tag {
+//     position: relative;
+//     clear: right;
+//     float: right;
+//     vertical-align: bottom;
+//     text-decoration: none;
+//     background-color: $click-tag-background-color;
+//     color: $click-tag-font-color;
+//   }
+//   #tag-1 {
+//     z-index: 1;
+//     margin-top: $tag-line-margin;
+//     background-color: $tagline-1-color;
+//     color: $tagline-1-font-color;
+//     font-size: $tag-line-1-size;
+//     font-family: $tag-line-1-font;
+//     line-height: $tag-line-1-size;
+//   }
+//   #tag-2 {
+//     z-index: 2;
+//     margin-top: $tag-line-margin + $tag-line-1-size;
+//     background-color: $tagline-2-color;
+//     color: $tagline-2-font-color;
+//     font-size: $tag-line-2-size;
+//     font-family: $tag-line-2-font;
+//   }
+//   #tag-3 {
+//     z-index: 3;
+//     margin-top: $tag-line-margin + $tag-line-1-size + $tag-line-2-size;
+//     background-color: $tagline-2-color;
+//     color: $tagline-2-font-color;
+//     font-size: $tag-line-2-size;
+//     font-family: $tag-line-2-font;
+//   }
+//   #large-view {
+//     display: block;
+//     position: relative;
+//     width: 100%;
+//     height: 70%;
+//     margin-top: 0;
+//   }
+//   .small-view {.thumbnail {
+//       display: inline-block;
+//       margin-top: 10px;
+//       padding: 0;
+//       border: none;
+//       float: left;
+//       margin-bottom: 0;
+//       img {
+//         width: 100%;
+//         max-width: 100%;
+//       }
+//       .caption {
+//         position: relative;
+//         display: block;
+//         padding: 2px;
+//         font-size: $small-view-font-size;
+//         a:visited {
+//           text-decoration: none;
+//           color: $color-visted;
+//           font-weight: bolder;
+//         }
+//         a:hover {
+//           text-decoration: none;
+//           color: $hover-color;
+//           font-weight: bolder;
+//         }
+//       }
+//     }
+//   }
+// }
+//
+//
+// @media only screen and (max-width: 767px) {.main-view {
+// .large-pic{
+//   border: 1px solid #ddd;
+//   border-radius: 4px;
+// }
+//   .small-view {.thumbnail {
+//       border: 1px solid #ddd;
+//       border-radius: 4px;
+//   .caption {
+//           font-size: $small-view-font-size + 5;
+//         }
+//       }
+//     }
+//   }
+// }

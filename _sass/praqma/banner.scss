@@ -1,19 +1,19 @@
 
 @charset "utf-8";
 /*banner*/
-$banner-font-stack: 'Oswald', 'Indie Flower';
+$banner-font-stack: 'jinky', 'Indie Flower';
 $logo-width: 100px;
 $logo-height: 100px;
 $banner-color: white;
 $logo-font-size: 25px;
 /*menu*/
 $menu-font-stack:  Arial;
-$menu-font-size: 17px;
+$menu-font-size: 25px;
 $menu-font-color: #454545;
 $hover-color: orange;
 $color-visted: #454545;
 $border-radius: 3px;
-$menu-color:#f8f8f8;
+$menu-color:white;
 /*moto*/
 $moto-font-stack: 'Ubuntu';
 $moto-font-size: 15px;
@@ -54,6 +54,7 @@ $letter-spacing:2px;
 }
 .navbar-default {
   background-color: $menu-color;
+  border: none;
 }
 .navbar .navbar-nav {
   display: inline-block;

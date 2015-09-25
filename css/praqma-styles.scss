@@ -16,6 +16,9 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  #bar-icon {
+    visibility: hidden;
+  }
 }
 .main-frame {
   background-color: $main-frame-color;
@@ -33,6 +36,7 @@ body {
   height: auto;
   text-align: center;
 }
+
 // .inner-wrapper {
 //   clear: both;
 //   position: relative;
@@ -48,36 +52,10 @@ body {
   margin-right: 0;
   width: 100%;
   padding-top: 5px;
-
   background-color: $footer-color;
   color: $footer-color - 80;
   line-height: 1;
-  .social-icons-tray {
-    display: block;
-    position: relative;
-    margin-left: 0;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    max-width: 100%;
-    a {
-      text-align: center;
-      text-decoration: none;
-      padding-bottom: 0;
-      img {
-        float: right;
-        width: 30px;
-        max-width: 30px;
-        height: 30px;
-        max-height: 30px;
-        opacity: 0.45;
-      }
-      img:hover {
-        cursor: pointer;
-        opacity: 1;
-      }
-    }
+
     p {
       display: block;
       float: left;
@@ -85,7 +63,7 @@ body {
       font-weight: bold;
       margin-bottom: 0;
     }
-  }
+
   .footer-content {
     padding-right: 0;
     padding-left: 10px;
@@ -116,21 +94,41 @@ body {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  // .side-bar {
-  //   width: 100%;
-  // }
-  //
-  // .main-view {
-  //   width: 100%;
-  // }
 
-  .foot-wrapper {
-    .footer-content {
+
+  body {
+    #bar-icon {
+      visibility: visible;
+      max-height: 30px;
+      min-height: 30px;
+      padding-top: 5px;
+      margin-bottom: 0px;
+    .social-icons-tray {
+        a {
+          text-decoration: none;
+          padding-bottom: 0;
+          img {
+            float: right;
+            width: 25px;
+            max-width: 25px;
+            height: 25px;
+            max-height: 25px;
+            opacity: 0.45;
+          }
+          img:hover {
+            cursor: pointer;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  .foot-wrapper {.footer-content {
       visibility: hidden;
       font-size: 9px;
-      .address {
-        visibility: visible;
-      }
+      // .address {
+      //   visibility: visible;
+      // }
     }
   }
 }

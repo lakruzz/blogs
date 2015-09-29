@@ -1,4 +1,27 @@
-// @charset "utf-8";
+@charset "utf-8";
+$small-view-font-size: 11px;
+.main-view {
+  padding-right: 0;
+}
+#drop-1,
+#drop-2,
+#drop-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.inner-wrapper {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  .thumbnail {
+    padding: 0;
+    border: none;
+    .caption {
+      padding-left: 0;
+      font-size: $small-view-font-size;
+    }
+  }
+}
+
 // $main-view-width: 70%;
 // $main-view-position: left;
 //
@@ -98,7 +121,20 @@
 // }
 //
 //
-// @media only screen and (max-width: 767px) {.main-view {
+@media only screen and (min-width: 768px) and (max-width: 959px) {.main-view {
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {.main-view {
+    padding-right: 15px;
+  }
+  .inner-wrapper {.thumbnail {.caption {
+        font-size: $small-view-font-size + 5;
+      }
+    }
+  }
+}
+
 // .large-pic{
 //   border: 1px solid #ddd;
 //   border-radius: 4px;

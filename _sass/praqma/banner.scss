@@ -64,7 +64,6 @@ $letter-spacing:2px;
   text-align: center;
 }
 .container-fluid {
-  padding-left: 80px;
   padding-right: 0;
 }
 
@@ -75,4 +74,8 @@ $letter-spacing:2px;
   font-size: 10px;
 }
 }
+.container-fluid {
+  padding-left: 80px;
+  }
+
 }

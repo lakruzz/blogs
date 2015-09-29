@@ -8,6 +8,7 @@ $icon-size: 50px;
 $content-position: 15px;
 $comments-font:  arial;
 .side-bar {
+  padding-left: 20px;
   // clear: $side-bar-position;
   // width: $side-bar-width;
   // float: $side-bar-position;
@@ -41,7 +42,10 @@ $comments-font:  arial;
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  // .side-bar {
+  .side-bar {
+padding-left: 20px;
+}
+}
   //   clear: $side-bar-position;
   //   width: 200px;
   //   display: block;
@@ -55,4 +59,3 @@ $comments-font:  arial;
   //     margin-top: 10px;
   //     margin-bottom: 10px;
   // }
-}

@@ -1,5 +1,11 @@
 @charset "utf-8";
 $small-view-font-size: 11px;
+
+$drop-1-color: grey;
+$drop-2-color: black;
+$drop-3-color: orange;
+
+
 .main-view {
   padding-right: 0;
 }
@@ -8,6 +14,11 @@ $small-view-font-size: 11px;
 #drop-3 {
   padding-left: 0;
   padding-right: 0;
+  a:link,
+  a:visited,
+  a:visited {
+    text-decoration: none;
+  }
 }
 .inner-wrapper {
   margin-top: 20px;
@@ -18,8 +29,41 @@ $small-view-font-size: 11px;
     .caption {
       padding-left: 0;
       font-size: $small-view-font-size;
+
+      p{
+        margin-top: 10px;
+      }
     }
   }
+
+#drop-1{
+  .thumbnail{
+    .caption{
+
+      font{
+      color: $drop-1-color;
+      }
+    }
+  }
+}
+#drop-2{
+  .thumbnail{
+    .caption{
+      font{
+        color: $drop-2-color;
+      }
+    }
+  }
+}
+#drop-3{
+  .thumbnail{
+    .caption{
+      font{
+        color: $drop-3-color;
+      }
+    }
+  }
+}
 }
 
 // $main-view-width: 70%;

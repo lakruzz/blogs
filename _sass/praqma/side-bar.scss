@@ -6,33 +6,28 @@ $side-bar-color: white;
 $side-bar-text-color: orange;
 $icon-size: 50px;
 $content-position: 15px;
-$comments-font:  arial;
+$comments-font: arial;
+$slider-font-size: 11px;
 .side-bar {
   padding-left: 20px;
-ul.icons {
-  margin: 0;
-  padding: 0;
-   li {
-list-style: none;
-margin: 0;
-padding-bottom: 10px;
-img {
-
-  width: 50px;
-  max-width: 50px;
-  height: 50px;
-  max-height: 50px;
-
-}
-}
-}
-  // clear: $side-bar-position;
-  // width: $side-bar-width;
-  // float: $side-bar-position;
-  // background-color: $side-bar-color;
-  // font-family: $side-bar-font;
-  // padding: 5px;
+  font-family: 'Open Sans';
+  ul.icons {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      margin: 0;
+      padding-bottom: 10px;
+      img {
+        width: 50px;
+        max-width: 50px;
+        height: 50px;
+        max-height: 50px;
+      }
+    }
+  }
   .flexslider {
+    margin-top: 10px;
     display: block;
     position: relative;
     width: 100%;
@@ -43,6 +38,10 @@ img {
       list-style: none;
       text-align: center;
       border: none;
+      li {
+        font-size: $slider-font-size;
+        font-family: 'Open Sans';
+      }
     }
   }
 }
@@ -54,33 +53,24 @@ img {
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-ul.icons{
-  visibility: hidden;
-display: none;
-}
+@media only screen and (min-width: 768px) and (max-width: 959px) {ul.icons {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  .side-bar {
-padding-left: 20px;
-ul.icons{
-  visibility: hidden;
-display: none;
+@media only screen and (max-width: 767px) {.side-bar {
+    padding-left: 20px;
+    ul.icons {
+      visibility: hidden;
+      display: none;
+    }
+    .slider {.flexslider {ul {li {
+            font-size: $slider-font-size + 5;
+          }
+        }
+      }
+    }
+  }
 }
-}
-}
-  //   clear: $side-bar-position;
-  //   width: 200px;
-  //   display: block;
-  //   position: relative;
-  //   background-color: $side-bar-color;
-  //   font-family: $side-bar-font;
-  //   padding: 5px;
-  //
-  //     border: 1px solid #ddd;
-  //     border-radius: 4px;
-  //     margin-top: 10px;
-  //     margin-bottom: 10px;
-  // }

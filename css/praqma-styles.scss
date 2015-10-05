@@ -13,11 +13,14 @@ $footer-color: #e5e4e2;
 $footer-font-size: 10px;
 $footer-hieght:200px;
 
+$font-weight: 500;
 body {
   background-color: $canvas-color;
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans';
+  font-weight: $font-weight;
   #bar-icon {
     visibility: hidden;
   }

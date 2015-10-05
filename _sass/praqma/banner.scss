@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 /*banner*/
 $banner-font-stack: 'jinky', 'Indie Flower';
@@ -7,20 +6,20 @@ $logo-height: 100px;
 $banner-color: white;
 $logo-font-size: 25px;
 /*menu*/
-$menu-font-stack:  Arial;
+$menu-font-stack: Arial;
 $menu-font-size: 25px;
 $menu-font-color: #454545;
 $hover-color: orange;
 $color-visted: #454545;
 $border-radius: 3px;
-$menu-color:white;
+$menu-color: white;
+$menu-text-color: black;
 /*moto*/
 $moto-font-stack: 'Ubuntu';
-$moto-font-size: 15px;
+$moto-font-size: 20px;
 $moto-ribbon-color: black;
 $moto-font-color: white;
-$moto-text-padding: 10px;
-$letter-spacing:2px;
+$letter-spacing: 2px;
 .head-wrapper {
   background-color: $banner-color;
   .logo {
@@ -33,49 +32,57 @@ $letter-spacing:2px;
   }
   #motto {
     position: relative;
-    padding-top: $moto-text-padding;
-    padding-bottom: $moto-text-padding - 2;
+    padding-top: 3px;
     background-color: $moto-ribbon-color;
     color: $moto-font-color;
     text-align: right;
     font-family: $moto-font-stack;
     font-size: $moto-font-size;
+    line-height: $moto-font-size;
     letter-spacing: $letter-spacing;
+    marquee {p {
+        margin: 4px;
+      }
+    }
   }
 }
 .navbar {
   margin-bottom: 1px;
   min-height: 40px;
-  li {a {
+
+  li {
+    a {
       padding-top: 10px;
       padding-bottom: 0;
     }
   }
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: $menu-text-color;
+}
+
 .navbar-default {
   background-color: $menu-color;
   border: none;
-}
+  }
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
-}
+  }
+
 .navbar .navbar-collapse {
   text-align: center;
 }
 .container-fluid {
   padding-right: 0;
 }
-
-@media only screen and (max-width: 767px) {
-
-.head-wrapper{
-  #motto{
-  font-size: 10px;
-}
-}
-.container-fluid {
-  padding-left: 80px;
+@media only screen and (max-width: 767px) {.head-wrapper {#motto {
+      font-size: 10px;
+    }
   }
-
+  .container-fluid {
+    padding-left: 80px;
+  }
 }

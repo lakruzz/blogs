@@ -1,5 +1,6 @@
 # Site settings
 title: Praqma-Continuous Delivery Company
+highlighter: pygments
 exclude: [README.md]
 timezone: Europe/Copenhagen
 url:

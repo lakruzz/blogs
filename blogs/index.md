@@ -4,6 +4,9 @@ title: Praqma Public Blogs
 ---
 <div>
 
+<!-- {% for post in site.posts %}
+{%endfor%} -->
+
 {% for category in site.categories %}
   {% if category.first == "blogs" %}
     {% for posts in category %}
@@ -20,5 +23,4 @@ title: Praqma Public Blogs
     {% endfor %}
   {% endif %}
 {% endfor %}
-
 </div>

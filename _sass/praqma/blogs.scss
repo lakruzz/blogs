@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+$slider-shadow-color: orange;
+
+
+img.img-sm-right{
+display:block;
+width:25%;
+float:right;
+}
+
+img.img-sm-left{
+display:inline-block;
+width:25%;
+float:left;
+}
+
+
+img.img-md-right{
+display:block;
+width:50%;
+float:right;
+}
+
+img.img-md-left{
+display:block;
+width:50%;
+float:left;
+}
+
+
+img.img-lrg{
+display:block;
+width:100%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#blogs-sidebar{
+  box-shadow: 1px 1px 10px $slider-shadow-color;
+margin-top: 20px;
+}

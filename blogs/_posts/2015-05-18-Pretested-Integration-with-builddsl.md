@@ -9,6 +9,7 @@ we can still utilize a [configure block](https://github.com/jenkinsci/job-dsl-pl
 that will generate the requirece xml to setup the plugin.  Here is an example
 from Novelda:
 
+
 ~~~ groovy
 
 job('xtMain_build_pretested') {

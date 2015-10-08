@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+$list-font-size:10px;
+$list-font-color: #C19A6B;
+
 $slider-shadow-color: orange;
 
 
@@ -40,4 +43,47 @@ margin-right: auto;
 #blogs-sidebar{
   box-shadow: 1px 1px 10px $slider-shadow-color;
 margin-top: 20px;
+padding-top: 10px;
+
+}
+
+.ls-blogs
+{
+  max-width: 100%;
+  text-decoration: none;
+  list-style: none;
+padding-left: 0px;
+padding-top: 10px;
+font-size: $list-font-size;
+
+a{
+  color: $list-font-color;
+  }
+
+}
+
+
+
+/*for smaller views*/
+@media only screen and (min-width: 659px) and (max-width: 992px)
+
+{
+  .ls-blogs{
+    li{
+      padding-left: 0px;
+      display: inline;
+      padding-right:15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  .ls-blogs{
+    li{
+      display: inline;
+      padding-left: 0px;
+      padding-right:15px;
+    }
+  }
 }

@@ -4,7 +4,8 @@ tags: [Gijeli, Wiki, MarkDown, Ruby]
 author: Bue Petersen
 ---
 
-# Title
+# Title Closer
+
 
 ## subtitle
 
@@ -24,7 +25,10 @@ The text beside mediuam image will go hereThe text beside mediuam image will go 
 
 ![incremental development](/images/praqma_1.png){: .img-md-left}
 
-The text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go here
+The text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will
+go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside
+mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe text beside mediuam image will go hereThe
+text beside mediuam image will go here
 
 ![incremental development](/images/praqma_1.png){: .img-lrg}
 

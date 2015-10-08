@@ -6,6 +6,7 @@ author: Lars Kruse
 
 __Jekyll is a Ruby gem that renders [MarkDown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](http://docs.shopify.com/themes/liquid-basics) to static html pages. Jekyll is the stand-alone engine that drives GitHub pages. By installing Jekyll you can effectively have an equivalent to GitHub pages anywhere.__
 
+
 GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
 
 This post is a description on how to get the tool-stack up and running on your local machine. It's intentionally kept short. For more lecture on the subject you can visit [Jekyll home](http://jekyllrb.com/) or read the into at [Jekyllbootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
@@ -82,7 +83,7 @@ Run the following commands:
     rvm requirements
     rvm install ruby
     rvm use ruby --default
-    gem install jekyll    
+    gem install jekyll
 
 
 ### On Fedora (20)

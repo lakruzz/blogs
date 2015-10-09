@@ -6,7 +6,7 @@
     {% for posts in category %}
       {% for post in posts %}
       {% if post.title != null %}
-      <li>  <a href="/blogs/index.html/#{{post.id}}"> {{ post.title }} </a></li>
+      <li>  <a href="/blogs/#{{post.id}}"> {{ post.title }} </a></li>
       {% endif %}
       {% endfor %}
     {% endfor %}

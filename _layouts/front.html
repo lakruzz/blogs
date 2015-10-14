@@ -6,21 +6,71 @@
 <body>
   <div class="main-frame container">
     <div class="head-wrapper">
-      {% include banner.html %}
-      {% include motto.html %}
+      {% include banner.html %} {% include motto.html %}
     </div>
-    <div class="inner-wrapper row">
-      {{ content }}
+    <div class="inner-wrapper">
+
+      <div class="row">
+        <div class="main-view col-md-12">
+
+          <div class="thumbnail no-border">
+            <img src="/images/front.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="thumbnail no-border">
+            <a href="#">
+              <img src="/images/news-pic.png" alt="">
+              <div class="caption header-grey text-grey">
+                <h3>NEWS</h3>
+                Learn how Microsoft avoided “not invented here” syndrome and adopted Git. Ethomson speaks at code-conf
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="thumbnail no-border">
+            <a href="#">
+              <img src="/images/features-pic.png" alt="">
+              <div class="caption">
+                <h3>FEATURES</h3>
+                Our services, ranging from development of plain vanilla software, over software verification and continuous delivery assessment.
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="thumbnail no-border">
+            <a href="#">
+              <img src="/images/conf-pic.png" alt="">
+              <div class="caption header-orange">
+                <h3>CONFERENCE</h3>
+                Our event are relevant to managers, software architects developers, project managers, agile coaches and everyone who’s got DevOps at heart.
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
       {% include side-bar.html %}
     </div>
+  </div>
 
-    <div class="foot-wrapper">
-      {% include footer.html %}
-    </div>
+  <div class="foot-wrapper">
+    {% include footer.html %}
+  </div>
 
   </div>
   <!--  End of main-frame-->
-{% include icon-bar.html %}
+  {% include icon-bar.html %}
 </body>
 
 </html>

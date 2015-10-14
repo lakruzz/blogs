@@ -1,11 +1,7 @@
 {
-  "codecph15": {
-    "target":"http://www.code-conf.com/cph15?src=mailbanner",
-    "graphic":"http://blogs.praqma.com/mailsignature/banners/Mailbanner_CoDeU2015CPH_600x100.jpg"
-  },
-  "masteringgitosloct15": {
-    "target":"http://www.praqma.com/events/git?src=mailbanner",
-    "graphic":"http://blogs.praqma.com/mailsignature/banners/masteringgit-banner.osloct15.jpg"
+  "dayofdockerosl15": {
+    "target":"http://www.code-conf.com/day-of-docker-osl15/?src=mailbanner",
+    "graphic":"http://blogs.praqma.com/mailsignature/banners/dodosl15.png"
   },
   "codeuflow": {
     "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html?src=mailbanner",
@@ -15,4 +11,5 @@
     "target":"http://www.code-conf.com?src=mailbanner",
     "graphic":"http://blogs.praqma.com/mailsignature/banners/code-conf-banner.png"
   }
+
 }

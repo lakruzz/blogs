@@ -18,6 +18,12 @@
     "title":"Consultant",
     "cell":"+45 42 79 77 45"
   },
+  "als": {
+    "name":"Alexandra Sedova",
+    "mail":"alexandra@praqma.com",
+    "title":"Continuous Delivery Trainee",
+    "cell":"+46 72 218 64 20"
+  },
   "and": {
     "name":"Andrius Ordojan",
     "mail":"and@praqma.net",
@@ -53,12 +59,6 @@
     "mail":"jak@praqma.net",
     "title":"Continuous Improvement Engineer",
     "cell":"+45 26 88 23 84"
-  },
-  "jas": {
-    "name":"Jan Sørensen",
-    "mail":"jas@praqma.com",
-    "title":"Partner, Praqma Århus",
-    "cell":"+45 21 34 42 28"
   },
   "joa": {
     "name":"Johan Abildskov",

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Pretested integration with buildDSL
 tags: [Jenkins, Pretested, buildDSL]
 author: Mike Long

@@ -3,5 +3,6 @@ title: Praqma-Continuous Delivery Company
 highlighter: pygments
 exclude: [README.md]
 timezone: Europe/Copenhagen
-url:
+url: http://blogs.praqma.com
 markdown: kramdown
+permalink:  none

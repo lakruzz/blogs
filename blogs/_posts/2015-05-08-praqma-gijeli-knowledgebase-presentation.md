@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Praqma gijeli knowledgebase presentation
 tags: [Gijeli, Wiki, MarkDown, Ruby]
 author: Bue Petersen

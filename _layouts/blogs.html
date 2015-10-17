@@ -6,20 +6,33 @@
 <body>
   <div class="main-frame container">
     <div class="head-wrapper">
-      {% include banner.html %}
+      {% include banner.html %} {% include motto.html %}
     </div>
-    <div class="row">
-      <div class="inner-wrapper col-md-9 ">
-        {{ content }}
-      </div>
-      <div id="blogs-sidebar" class="side-bar col-md-3">
-        {% include ls-blogs.html %} {% include slider.html %}
+    <div class="inner-wrapper">
+
+
+      <div class="row">
+        <div class="col-sm-9">
+          <div>
+            <strong>Blog posts {{site.name}}</strong>
+          </div>
+          {% for post in site.posts %}
+          <div class="post">
+            <span style="color:#fe950d;font-weight:bold;">::&nbsp;</span><a title="{{ post.date | date_to_string }}" href="{{site.root}}{{ post.url }}">{{ post.title }}</a></div>
+          {% endfor %} {{ content }}
+
+        </div>
+
+
+
+
       </div>
     </div>
   </div>
+
+  </div>
   <!--  End of main-frame-->
   {% include icon-bar.html %}
-
 </body>
 
 </html>

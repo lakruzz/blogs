@@ -1,4 +1,5 @@
 ---
+layout: post
 title: GiJeLi setup
 tags: [Gijeli, Wiki, MarkDown, Ruby]
 author: Lars Kruse

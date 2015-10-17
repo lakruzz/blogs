@@ -1,15 +1,38 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+{% include head.html %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+<body>
+  <div class="main-frame container">
+    <div class="head-wrapper">
+      {% include banner.html %} {% include motto.html %}
+    </div>
+    <div class="inner-wrapper">
 
-</div>
+      <div class="row">
+        <div class="main-view col-md-9">
+          <strong>By:&nbsp;</strong>{% for author in page.author %}
+          <em>{{author}}</em>&nbsp;&nbsp; {% endfor %}
+          <br/>
+          <strong> On:</strong>
+          {{page.date | date: "%A, %B %d. %Y"}}
+          <br/>
+
+          <h1>{{page.title}}</h1>
+
+          {{ content }}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  </div>
+  <!--  End of main-frame-->
+  {% include icon-bar.html %}
+</body>
+
+</html>

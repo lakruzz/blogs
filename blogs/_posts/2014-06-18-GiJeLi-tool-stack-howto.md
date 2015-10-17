@@ -5,7 +5,7 @@ tags: [Gijeli, Wiki, MarkDown, Ruby]
 author: Lars Kruse
 ---
 
-__Jekyll is a Ruby gem that renders [MarkDown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](http://docs.shopify.com/themes/liquid-basics) to static html pages. Jekyll is the stand-alone engine that drives GitHub pages. By installing Jekyll you can effectively have an equivalent to GitHub pages anywhere.__
+__Jekyll is a Ruby gem that renders [MarkDown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) to static html pages. Jekyll is the stand-alone engine that drives GitHub pages. By installing Jekyll you can effectively have an equivalent to GitHub pages anywhere.__
 
 
 GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
@@ -151,7 +151,7 @@ The start the Jekyll web service - which will automatically build the HTML - and
     cd cd CoDe-U.github.io/
     jekyll serve
 
-Open your browser on [http://localhost:4000](http://localhost:4000) and you should see the Code:U webpage.
+Open your browser on go to `http://localhost:4000` and you should see the Code:U webpage.
 
 ...which you can also see at [www.codeu.eu](http://www.codeu.eu)
 

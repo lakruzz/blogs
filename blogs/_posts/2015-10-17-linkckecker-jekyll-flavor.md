@@ -99,7 +99,7 @@ This header is actually also printed in the output, so in order to not pick this
       jekylltarget)
 
     message = "In " + modparentname + " the reference to " + urlname +
-      "@ line " + line + ":" + column + " says: " + result + " " +
+      " @ line " + line + ":" + column + " says: " + result + " " +
        warningstring + " " + infostring
 
     def prio
